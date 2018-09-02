@@ -1,0 +1,19 @@
+// Open the keybindings.json from the editor: CMD-SHIFT-P -> Preferences: Open Keyboard Shortcuts File. 
+// Also a nice resource: code.visualstudio.com/docs/getstarted/keybindings 
+
+[
+  {
+    "key": "ctrl+capsLock",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+capsLock",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]
